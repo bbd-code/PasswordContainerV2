@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChangeServiceWindow</class>
+ <widget class="QMainWindow" name="ChangeServiceWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>300</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>300</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Изменить сервис</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/images/res/icons8-pencil-50 (1).png</normaloff>:/images/res/icons8-pencil-50 (1).png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#ChangeServiceWindow{
+background: rgb(46, 47, 48);
+}
+
+QLineEdit
+{
+	background: black;
+	color:white;
+	border: 2px solid white;
+	border-radius: 6px;
+}
+
+QLabel{
+	font-size: 15px;
+
+	color: solid white;
+}
+
+#changeButton{
+	
+	background: black;
+	border: 2px solid white;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 6px;
+	padding: 20px;
+}
+#changeButton:hover{
+	
+	background: white;
+	border: 2px solid black;
+	color: black;
+	border-radius: 6px;
+}
+
+QListWidget
+{
+	border: 2px solid white;
+	border-radius: 4px;
+	background: rgb(46, 47, 48);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="changeButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>300</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Изменить</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="lineGroup" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>221</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 10px;</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="serviceNameLine">
+       <property name="maxLength">
+        <number>40</number>
+       </property>
+       <property name="placeholderText">
+        <string>Новое название</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="servicePassword">
+       <property name="maxLength">
+        <number>40</number>
+       </property>
+       <property name="placeholderText">
+        <string>Новый пароль</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

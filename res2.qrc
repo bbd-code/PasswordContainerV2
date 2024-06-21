@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>D:/User/Ilya_D/icons8-filter-50.png</file>
+        <file>D:/hh_icon.png</file>
+        <file>D:/hh_icon_large.png</file>
+        <file>D:/User/Ilya_D/icons8-settings-ios-17-filled/icons8-settings-50.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>D:/shield.png</file>
+        <file>D:/dragon-gaus-blur.png</file>
+        <file>res/dragon.png</file>
+        <file>res/dragon-gaus-blur.png</file>
+        <file>res/handshake.png</file>
+        <file>res/icons8-back-50 (1).png</file>
+        <file>res/icons8-back-50.png</file>
+        <file>res/icons8-checkmark-30.png</file>
+        <file>res/icons8-checkmark-90.png</file>
+        <file>res/icons8-company-50.png</file>
+        <file>res/icons8-container-64.png</file>
+        <file>res/icons8-copy-50 (1).png</file>
+        <file>res/icons8-copy-50.png</file>
+        <file>res/icons8-cross-50.png</file>
+        <file>res/icons8-cross-90 (1).png</file>
+        <file>res/icons8-cross-90.png</file>
+        <file>res/icons8-database-100.png</file>
+        <file>res/icons8-document-50.png</file>
+        <file>res/icons8-done-50.png</file>
+        <file>res/icons8-edit-64.png</file>
+        <file>res/icons8-employee-50 (1).png</file>
+        <file>res/icons8-employee-50.png</file>
+        <file>res/icons8-eye-50.png</file>
+        <file>res/icons8-favorite-50.png</file>
+        <file>res/icons8-filter-50.png</file>
+        <file>res/icons8-hand-64.png</file>
+        <file>res/icons8-numbers-64.png</file>
+        <file>res/icons8-pencil-50 (1).png</file>
+        <file>res/icons8-pencil-50.png</file>
+        <file>res/icons8-plus-50 (1).png</file>
+        <file>res/icons8-plus-50.png</file>
+        <file>res/icons8-recycle-bin-64 (1).png</file>
+        <file>res/icons8-recycle-bin-64.png</file>
+        <file>res/icons8-refresh-90 (1).png</file>
+        <file>res/icons8-refresh-90.png</file>
+        <file>res/icons8-search-50 (1).png</file>
+        <file>res/icons8-search-50.png</file>
+        <file>res/icons8-settings-50.png</file>
+        <file>res/icons8-shield-50.png</file>
+        <file>res/icons8-trash-50 (1).png</file>
+        <file>res/icons8-trash-50.png</file>
+        <file>res/icons8-urgent-message-50.png</file>
+        <file>res/icons8-work-50.png</file>
+        <file>res/shield.png</file>
+        <file>res/icons8-logout-50 (1).png</file>
+        <file>res/icons8-logout-50.png</file>
+        <file>res/icons8-settings-50white.png</file>
+        <file>res/icons8-remove-user-50 (1).png</file>
+        <file>res/icons8-remove-user-50.png</file>
+        <file>res/wings.png</file>
+    </qresource>
+</RCC>
